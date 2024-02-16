@@ -10,7 +10,7 @@ pipeline{
 
         stage('SCM'){
             steps{
-                git branch: 'main', url: 'https://github.com/geelabalakrishna/dockeransiblejenkins.git'            }
+                git branch: 'main', url: 'github.com/geelabalakrishna/login-db-jenkins-docker-ansible.git'            }
         }
         stage('frist-completed'){
             steps{
